@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: black;
 }
 .post {
-    margin: auto;
-    margin-top: 25px;
+    margin: 15px auto;
     width: 400px;
     height: 540px;
 }
@@ -26,4 +26,44 @@ img {
 
 .post-header, .post-icons, .post-body {
     background: white;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 2px;
+}
+
+.post-header h1 {
+    font-size: 16px;
+}
+
+.post-header .html5-icon {
+    font-size: 32px;
+}
+
+.post-header .three-dots {
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.post-icons {
+    padding: 12px 8px;
+    display: flex;
+}
+
+.post-icons i {
+    font-size: 28px;
+}
+
+.post-icons .save-icon {
+    margin-left: auto;
+}
+
+.post-body p {
+    padding: 9px 15px;
+}
+
+.post-body p:nth-child(2) {
+    padding-bottom: 18px;
 }
