@@ -1,16 +1,29 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background: black;
+main {
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 0.1) 90%, rgba(237, 221, 83, 1) 100%);
+    padding: 1em;
+    margin: 1em;
 }
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
 .post {
     margin: 15px auto;
     width: 400px;
     height: 540px;
+    border: 1px solid rgb(83, 80, 80);
 }
 
 .post-image {
